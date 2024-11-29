@@ -1,6 +1,7 @@
 /** JSX 문법 기초 **/
 import './App.css';
 
+// JSX 요소 중괄호 표현식에 사용 예시
 const element1 = <h2>Hello, world!</h2>;
 const element2 = (
   <ul>
@@ -13,7 +14,6 @@ const element2 = (
 console.log(element1);
 console.log(element2);
 
-// JSX 요소 중괄호 표현식에 사용 예시
 function ElementExpressions() {
   return (
     <section>
@@ -101,7 +101,7 @@ function FunctionExpressions() {
   );
 }
 
-function App() {
+function App01() {
   return (
     <>
       {/* JSX 주석 */}
@@ -121,4 +121,4 @@ function App() {
   );
 }
 
-export default App;
+export default App01;
